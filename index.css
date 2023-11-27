@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #303444;
+}
+h1{
+    font-family:cursive ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 105px;
+    
+}
+.card{
+    width:270px;
+    height:270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #303444;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.img{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#stopwatch{
+    border-radius: 50% solid white;
+    font-size: 60px;
+}
+.di{
+   font-size: 100px;
+   margin: 20px;
+}
+.re img{
+    cursor: pointer;
+}
+.startStopButton:hover{
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.reset:hover{
+    background-color: aliceblue;
+    border-radius: 50%;
+}
