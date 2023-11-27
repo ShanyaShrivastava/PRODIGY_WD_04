@@ -22,7 +22,7 @@ let isRunning = false;
             minutes = 0;
             hours = 0;
             updateDisplay();
-            document.getElementById('startStopButton').textContent = 'Start';
+        
         }
 
         function updateStopwatch() {
